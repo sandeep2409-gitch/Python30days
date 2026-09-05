@@ -1,0 +1,19 @@
+[project]
+name = "port-scanner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sandeep Manchinasetti", email = "sandeepmanchinasetti007@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+port-scanner = "port_scanner:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
