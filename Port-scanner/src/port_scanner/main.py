@@ -8,10 +8,7 @@ def scan_port(target, port):
     try:
         result = sock.connect_ex((target, port))
 
-        if result == 0:
-            return True
-
-        return False
+        return result ==0
 
     finally:
         sock.close()
