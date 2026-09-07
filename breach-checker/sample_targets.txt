@@ -1,0 +1,6 @@
+# Sample target list for breach-checker
+# Lines starting with '#' and blank lines are automatically ignored.
+test@example.com
+admin@gmail.com
+nonexistent_safe_user_998811@example.com
+

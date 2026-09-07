@@ -1,0 +1,17 @@
+[project]
+name = "breach-checker"
+version = "0.1.0"
+description = "Fast, public breach checking CLI for emails and usernames using XposedOrNot and HIBP APIs"
+readme = "README.md"
+authors = [
+    { name = "Sandeep Manchinasetti", email = "sandeepmanchinasetti007@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+breach-checker = "breach_checker:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
