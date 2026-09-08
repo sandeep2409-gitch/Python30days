@@ -1,0 +1,17 @@
+[project]
+name = "password-analyzer"
+version = "0.1.0"
+description = "Password strength analyzer, Shannon entropy calculator, pattern detector, and breach checker CLI"
+readme = "README.md"
+authors = [
+    { name = "Sandeep Manchinasetti", email = "sandeepmanchinasetti007@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+password-analyzer = "password_analyzer.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,12 @@
+=======================================================
+             BREACH CHECKER SCAN REPORT                
+=======================================================
+Total Queried : 1
+Breached      : 0
+Clean         : 1
+Errors        : 0
+Duration      : 1.01s
+=======================================================
+
+[+] CLEAN   : sandeepmanchinasetti007@gmail.com (No breaches found)
+
